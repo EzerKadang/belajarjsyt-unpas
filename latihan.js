@@ -1,0 +1,48 @@
+// **********
+// *********
+// ********
+// *******
+// ******
+// *****
+// ****
+// ***
+// **
+// *
+
+// var s = "";
+
+// for (var i = 5; i >= 0; i--) {
+//   for (var o = 0; o <= 5 - i; o++) {
+//     s += "*";
+//   }
+//   s += "\n";
+// }
+// console.log(s);
+
+//_______________________________________________
+
+//  *
+//  **
+// ****
+
+//! buntu
+// for (var row = 0; row < 5; row++) {
+//   var output = "";
+//   for (var col = 0; col < 5 - row; col++) output += " ";
+//   for (var k = 0; k <= row; k++) output += "*";
+
+//   console.log(output);
+// }
+
+// yang berhasil
+// function createPyramid(rows) {
+//   for (let i = 0; i < rows; i++) {
+//     var output = "";
+
+//     for (let j = 0; j < rows - i; j++) output += " ";
+//     for (let k = 0; k <= i; k++) output += "* ";
+//     console.log(output);
+//   }
+// }
+
+// createPyramid(5); // pass number as row of pyramid you want.
