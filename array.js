@@ -86,9 +86,25 @@
 // 7.sort
 
 //mengurutkan angka
-var angka = [1, 3, 2, 4, 6, 5, 7, 10, 20];
-angka.sort(function (a, b) {
-  return a - b;
-});
+// var angka = [1, 3, 2, 4, 6, 5, 7, 10, 20];
+// angka.sort(function (a, b) {
+//   return a - b;
+// });
 
-console.log(angka.join(" "));
+// console.log(angka.join(" "));
+
+// 8.filter
+// var angka = [1, 3, 2, 4, 6, 5, 7, 10, 20];
+// var angka2 = angka.filter(function (x) {
+//   return x < 5;
+// });
+
+// console.log(angka2);
+
+// 9.find
+// var angka = [1, 3, 2, 4, 6, 5, 7, 10, 20];
+// var angka2 = angka.find(function (x) {
+//   return x < 5;
+// });
+
+// console.log(angka2);
