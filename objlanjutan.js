@@ -101,5 +101,3 @@ class Mahasiswa {
 }
 
 let eser = new Mahasiswa(`eser`, 10);
-
-// aaaa;
