@@ -80,15 +80,15 @@
 // console.log(arr1.join(" "));
 
 //? 7.filter (mengembalikan banyak nilai)
-// let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
-// var arr2 = arr1.filter(function (e) {
-//   return e < 5;
-// });
-// console.log(arr2.join(" "));
+let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
+var arr2 = arr1.filter(function (e) {
+  return e < 5;
+});
+console.log(arr2.join(" "));
 
 //? 8.find (mengembalikan satu nilai)
-let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
-var arr2 = arr1.find(function (e) {
-  return e > 10;
-});
-console.log(arr2);
+// let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
+// var arr2 = arr1.find(function (e) {
+//   return e > 10;
+// });
+// console.log(arr2);
