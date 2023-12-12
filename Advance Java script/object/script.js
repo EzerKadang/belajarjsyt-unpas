@@ -59,7 +59,7 @@
 // let mhs1 = Mhs("eser", 10);
 // let mhs2 = Mhs("ellys", 10);
 
-//! Object declaration
+//! Object.create()
 const mhsMethod = {
   makan: function (porsi) {
     this.energy += porsi;
