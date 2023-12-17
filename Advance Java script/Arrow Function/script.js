@@ -114,17 +114,27 @@
 // const eser = new Mahasiswa();
 
 //! example 5
-const box = document.querySelector(`.box`);
-box.addEventListener("click", function () {
-  let satu = "size";
-  let dua = "caption";
+// const box = document.querySelector(`.box`);
+// box.addEventListener("click", function () {
+//   let satu = "size";
+//   let dua = "caption";
 
-  if (this.classList.contains(satu)) {
-    [satu, dua] = [dua, satu];
+//   if (this.classList.contains(satu)) {
+//     [satu, dua] = [dua, satu];
+//   }
+
+//   this.classList.toggle(satu);
+//   setTimeout(() => {
+//     this.classList.toggle(dua);
+//   }, 600);
+// });
+
+// !example high order function
+function repeat(n, action) {
+  for (let i = 0; i < n; i++) {
+    action(i);
   }
+}
 
-  this.classList.toggle(satu);
-  setTimeout(() => {
-    this.classList.toggle(dua);
-  }, 600);
-});
+repeat(10, console.log);
+repeat(3, alert);
