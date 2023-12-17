@@ -22,7 +22,7 @@ jsLanjutan = jsLanjutan - jam * 3600;
 const menit = Math.floor(jsLanjutan / 60);
 const detik = jsLanjutan - menit * 60;
 
-// simpan di dom
+// simpan di dom html
 //* total video
 const jumlahVideo = elmVideo.filter((video) =>
   video.textContent.includes(`JAVASCRIPT LANJUTAN`)
