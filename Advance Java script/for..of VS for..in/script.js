@@ -30,17 +30,17 @@
 // }
 
 //? arguments
-// function jumlahAngka() {
-//   return arguments.reduce((a, i) => a + i);
-//   arguments.forEach((a) => (jumlah += a));
-//   let jumlah = 0;
-//   for (j of arguments) {
-//     jumlah += j;
-//   }
-//   return jumlah;
-// }
+function jumlahAngka() {
+  //   return arguments.reduce((a, i) => a + i);
+  //   arguments.forEach((a) => (jumlah += a));
+  let jumlah = 0;
+  for (j of arguments) {
+    jumlah += j;
+  }
+  return jumlah;
+}
 
-// console.log(jumlahAngka(1, 2, 3, 4, 5));
+console.log(jumlahAngka(1, 2, 3, 4, 5));
 
 //! for in
 const mhs = {
