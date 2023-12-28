@@ -28,6 +28,7 @@
 // const mhs = [...liNama].map((m) => m.textContent);
 // console.log(mhs);
 
+//* memisahkan setiap huruf
 const nama = document.querySelector(`.nama`);
 
 const huruf = [...nama.textContent].map((h) => `<span>${h}</span>`).join(``);
