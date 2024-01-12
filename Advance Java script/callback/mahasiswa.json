@@ -1,0 +1,23 @@
+[
+  {
+    "nama": "eser",
+    "nrp": "080022333",
+    "email": "eser@gmail.com",
+    "jurusan": "informatika",
+    "idDosenwali": 1
+  },
+  {
+    "nama": "isnyu",
+    "nrp": "080022334",
+    "email": "isnyu@gmail.com",
+    "jurusan": "theology",
+    "idDosenwali": 2
+  },
+  {
+    "nama": "lleys",
+    "nrp": "080022334",
+    "email": "isnyu@gmail.com",
+    "jurusan": "bussines",
+    "idDosenwali": 3
+  }
+]
