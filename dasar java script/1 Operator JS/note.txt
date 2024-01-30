@@ -1,0 +1,20 @@
+Operator perbandingan
+
+== : Sama Dengan
+!= : Tidak Sama Dengan
+=== : Strict/tipe data Sama Dengan
+!== : Strict/tipe data tidak sama Dengan
+> : Lebih Besar
+< : Lebih Kecil
+>= : Lebih Besar Sama Dengan
+<= : Lebih Kecil Sama Dengan
+
+Operator Logika
+
+&& Jika Salah Satu False maka hasilnya False (harus true dua kondisi)
+
+|| Jika salah satunya true maka hasilnya true
+
+! pembalik hasil
+
+(kondsi) ? Benar : Salah
