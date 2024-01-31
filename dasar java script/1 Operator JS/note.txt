@@ -18,5 +18,3 @@ Operator Logika
 ! pembalik hasil
 
 (kondsi) ? Benar : Salah
-
-test

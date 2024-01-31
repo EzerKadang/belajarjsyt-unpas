@@ -1,5 +1,5 @@
 // !DOM looping for
-// for(penentuan nilai awal; penentuan kondisi; dicrement/increment){
+// for(penentuan nilai awal; penentuan kondisi terminasi; dicrement/increment){
 //     aksi
 // }
 

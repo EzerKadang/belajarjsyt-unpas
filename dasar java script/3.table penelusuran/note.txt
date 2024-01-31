@@ -1,0 +1,13 @@
+let angkot = 1;
+while (angkot <= 10) {
+  console.log(`Angkot NO. ${angkot} beroprasi dengan baik.`);
+  angkot++;
+}
+
+noangko     |     angkot <= 10 (kondisi terminasi)     |   output
+1                         true                             angkot no.1
+2                         true                             angkot no.2
+3                         true                             angkot no.3
+...                       ...                              ...
+10                        true                             angkot no.10
+11                        false                            while tidak berjalan

@@ -23,9 +23,19 @@
 //   ulang = confirm("lagi?");
 // }
 
-// ! looping dihentikan oleh program
-let ulang = 1;
-while (ulang <= 5) {
-  console.log("hello world " + ulang + "x");
-  ulang++;
-}
+//! menghentikan pengulangen dengan program itu sendiri
+// nilai awal
+// while (kondisi terminasi){
+
+// aksi
+
+// increment / decrement
+
+// }
+
+// ? contoh
+// let ulang = 1;
+// while (ulang <= 5) {
+//   console.log("hello world " + ulang + "x");
+//   ulang++;
+// }
