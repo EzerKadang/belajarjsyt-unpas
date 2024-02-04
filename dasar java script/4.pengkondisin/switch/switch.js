@@ -33,20 +33,20 @@
 // }
 
 // ?Example 2
-let item = prompt(
-  `masukan nama makanan : \n (cth : nasi, daging, susu, hamburger, chitos)`
-);
+// let item = prompt(
+//   `masukan nama makanan : \n (cth : nasi, daging, susu, hamburger, chitos)`
+// );
 
-switch (item) {
-  case `nasi`:
-  case `daging`:
-  case `susu`:
-    alert(`Makanan/Minuman SEHAT`);
-    break;
-  case `hamburger`:
-  case `chitos`:
-    alert(`Makanan/Minuman TIDAK SEHAT`);
-    break;
-  default:
-    alert(`Makanan/Minuman yang anda masukan salah`);
-}
+// switch (item) {
+//   case `nasi`:
+//   case `daging`:
+//   case `susu`:
+//     alert(`Makanan/Minuman SEHAT`);
+//     break;
+//   case `hamburger`:
+//   case `chitos`:
+//     alert(`Makanan/Minuman TIDAK SEHAT`);
+//     break;
+//   default:
+//     alert(`Makanan/Minuman yang anda masukan salah`);
+// }
