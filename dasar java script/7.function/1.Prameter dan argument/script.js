@@ -50,13 +50,13 @@
 // console.log(hasil);
 
 //! Contoh 6 : tidak menggunakan prameter
-function tambah() {
-  let hasil = 0;
-  for (let i = 0; i < arguments.length; i++) {
-    hasil += arguments[i];
-  }
-  return hasil;
-}
+// function tambah() {
+//   let hasil = 0;
+//   for (let i = 0; i < arguments.length; i++) {
+//     hasil += arguments[i];
+//   }
+//   return hasil;
+// }
 
-var coba = tambah(1, 2, 3, 4);
-console.log(coba);
+// var coba = tambah(1, 2, 3, 4);
+// console.log(coba);

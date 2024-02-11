@@ -8,4 +8,4 @@ function luasKubus(a, b) {
   return total;
 }
 
-console.log(`luas nya adalah ${luasKubus(4, 3)}`);
+console.log(`luas nya adalah ${luasKubus(8, 3)}`);
