@@ -26,40 +26,40 @@
 
 //! method array
 //? 1. joint (menggabungkan)
-// let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
+// let arr = [`eser`, `kadang`, `ell`, `test`, `test2`];
 
 // console.log(arr.join(` `));
 
-//? 2. push & pop (akhir baris)
-// let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
-// arr.push(`test3`, `test4`);
+//? 2. push menambah & pop menghapus (akhir baris)
+// let arr = [`eser`, `kadang`, `test`, `test2`];
+// arr.push(`test3`);
 // arr.pop();
 // arr.pop();
 // console.log(arr.join(` `));
 
-//? 3.unshift & shift (awal baris)
+//? 3.unshift menambah & shift menghapus (awal baris)
 // let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
 // arr.unshift(`test1`, `test1.1`);
 // arr.shift();
 // console.log(arr.join(` `));
 
 //? 4.splice (menambal)
-// * EX : splace(indexawal, maudihapus berapa, elembaru1, elembaru2, ...)
+// * EXAM : splace(indexawal, mau dihapus berapa, elembaru1, elembaru2, ...)
 // let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
-// arr.splice(1, 0, `testbaru1`);
+// arr.splice(0, 0, `testbaru1`);
 // console.log(arr.join(` `));
 
 //? 5.slice (memotong)
-// * EX : slice(indexawal, indexakhir)
+// * EXAM : slice(indexawal, indexakhir)
 // let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
-// let slice = arr.slice(0, 2);
+// let slice = arr.slice(1, 3);
 // console.log(slice.join(` `));
 
 //? 6.forEach (tidak mengembalikan nilai)
 // let arr = [`eser`, `kadang`, `ellyz`, `test`, `test2`];
 
-// arr.forEach(function (e, i) {
-//   console.log(`${e} ke ${i + 1}`);
+// arr.forEach(function (elm, ind) {
+//   console.log(`mahasiswa ke - ${ind + 1} adalah ${elm}`);
 // });
 
 //? 7.map (mengembalikan nilai)
@@ -80,11 +80,11 @@
 // console.log(arr1.join(" "));
 
 //? 7.filter (mengembalikan banyak nilai)
-let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
-var arr2 = arr1.filter(function (e) {
-  return e < 5;
-});
-console.log(arr2.join(" "));
+// let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
+// var arr2 = arr1.filter(function (e) {
+//   return e < 5;
+// });
+// console.log(arr2.join(" "));
 
 //? 8.find (mengembalikan satu nilai)
 // let arr1 = [1, 3, 4, 10, 20, 2, 5, 6, 7, 8];
