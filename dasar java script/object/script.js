@@ -35,18 +35,18 @@
 //   jurusan: "informatika",
 // };
 
-// //! object declaration
-// function functionmhs(nama, nrp, email, jurusan) {
-//   var mhs = {};
-//   mhs.nama = nama;
-//   mhs.nrp = nrp;
-//   mhs.email = email;
-//   mhs.jurusan = jurusan;
-//   return mhs;
-// }
+// //! function declaration
+function functionmhs(nama, nrp, email, jurusan) {
+  var mhs = {};
+  mhs.nama = nama;
+  mhs.nrp = nrp;
+  mhs.email = email;
+  mhs.jurusan = jurusan;
+  return mhs;
+}
 
-// var mhs2 = functionmhs("ellys", "1234555", "ellys@gmail.com", "bisnis");
-// var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
+var mhs2 = functionmhs("ellys", "1234555", "ellys@gmail.com", "bisnis");
+var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
 
 // //! constructor
 // function Mhs(nama, nrp, email, jurusan) {
@@ -60,28 +60,30 @@
 
 //! object this
 // ? object function declaration
-function halo() {
-  console.log(this);
-  console.log("halo");
-}
+// function halo() {
+//   console.log(this);
+//   console.log("halo");
+// }
 
-halo();
+// halo();
 //* mengembalikan object global
 
 // ? object literal
-var obj = {};
-obj.halo = function () {
-  console.log(this);
-  console.log("halo");
-};
+// var obj = {};
+// obj.halo = function () {
+//   console.log(this);
+//   console.log("halo");
+// };
 //* mengembalikan object yang bersangkutan
 
-obj.halo();
+// obj.halo();
 
-function Halo() {
-  console.log(this);
-  console.log("halo");
-}
+// function Halo() {
+//   console.log(this);
+//   console.log("halo");
+// }
 
-new Halo();
+// new Halo();
 //* Mengembalikan object yang baru dibuat
+
+let mhs = {};
