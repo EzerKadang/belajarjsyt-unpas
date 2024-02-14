@@ -1,8 +1,10 @@
 //! Example 1
 // let mahasiswa = {
+//? properti
 //   nama: `eser`,
 //   lulus: true,
 //   ipSemester: [2.9, 3.1, 3.25, 4.0, 3.2],
+//? Method
 //   ipKomulatif: function () {
 //     let total = 0;
 //     let ips = this.ipSemester;
@@ -36,17 +38,17 @@
 // };
 
 // //! function declaration
-function functionmhs(nama, nrp, email, jurusan) {
-  var mhs = {};
-  mhs.nama = nama;
-  mhs.nrp = nrp;
-  mhs.email = email;
-  mhs.jurusan = jurusan;
-  return mhs;
-}
+// function functionmhs(nama, nrp, email, jurusan) {
+//   var mhs = {};
+//   mhs.nama = nama;
+//   mhs.nrp = nrp;
+//   mhs.email = email;
+//   mhs.jurusan = jurusan;
+//   return mhs;
+// }
 
-var mhs2 = functionmhs("ellys", "1234555", "ellys@gmail.com", "bisnis");
-var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
+// var mhs2 = functionmhs("ellys", "1234555", "ellys@gmail.com", "bisnis");
+// var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
 
 // //! constructor
 // function Mhs(nama, nrp, email, jurusan) {
@@ -58,14 +60,18 @@ var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
 
 // var mhs4 = new Mhs("tison", "123123", "tison@gmail.com", "industri");
 
-//! object this
+//! this
+// console.log(this);
+// console.log(window);
+// this == window
+
 // ? object function declaration
 // function halo() {
 //   console.log(this);
 //   console.log("halo");
 // }
 
-// halo();
+// this.halo();
 //* mengembalikan object global
 
 // ? object literal
@@ -74,16 +80,15 @@ var mhs3 = functionmhs("eser", "123123123", "eser@gmail.com", "informatika");
 //   console.log(this);
 //   console.log("halo");
 // };
-//* mengembalikan object yang bersangkutan
 
 // obj.halo();
+//* mengembalikan object yang bersangkutan
 
-// function Halo() {
-//   console.log(this);
-//   console.log("halo");
-// }
+function Halo() {
+  console.log(this);
+  console.log("halo");
+}
 
-// new Halo();
+let obj1 = new Halo();
+let obj2 = new Halo();
 //* Mengembalikan object yang baru dibuat
-
-let mhs = {};
