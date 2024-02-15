@@ -1,0 +1,21 @@
+Dom Tre
+
+
+Nodelist VS HTMLCollection 
+-keduanya merupakan Kumpulan dari note
+-struktur datanya mirip array 
+-nodelist dapat berisi apapun sedangan HTMLCollection harus berisi elemen HTML
+-HTMLCollection bersifat live sedangkan noselist tidak
+
+-node merupakan pemilihan salah satu elemen maupun text
+-nodelist merupakan pemilihan slebih dari satu elemen maupun text
+-HTMLCollection merupakan pemilihan beberapa elemen
+
+
+struktu hirarki dari DOM tree
+-Root node 
+node yang menjadi sumber dari semua node lain di dalam DOM
+-parent node
+node yang berada 1 tingkat diatas node yang lain
+-child node
+node yang berada 1 tingkat dibawa node yang lain

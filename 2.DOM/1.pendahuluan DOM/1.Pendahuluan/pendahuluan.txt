@@ -1,0 +1,3 @@
+DOM
+- antar muka pemrograman berbasis object, yang mempresentasikan dokumen WEB.
+- DOM membuat seluruh komponen dari halaman WEB dapat diakses & dimanipulasi menggunakan Java script.
