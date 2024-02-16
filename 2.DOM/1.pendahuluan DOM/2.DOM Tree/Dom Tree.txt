@@ -8,7 +8,7 @@ Nodelist VS HTMLCollection
 -HTMLCollection bersifat live sedangkan noselist tidak
 
 -node merupakan pemilihan salah satu elemen maupun text
--nodelist merupakan pemilihan slebih dari satu elemen maupun text
+-nodelist merupakan pemilihan lebih dari satu elemen maupun text
 -HTMLCollection merupakan pemilihan beberapa elemen
 
 
